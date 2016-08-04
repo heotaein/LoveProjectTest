@@ -35,4 +35,46 @@
 		<CharName>헝탱</CharName>
 		<Text>취향이 어떻게 되세요?</Text>
 	</Line>
+  <Line>
+    <PlayChar>1001</PlayChar>
+    <ScenarioNum>2</ScenarioNum>
+    <CharNum>2001</CharNum>
+    <CharName>헝탱</CharName>
+    <Text>오늘은 뭐하세요?</Text>
+  </Line>
+  <Line>
+    <PlayChar>1001</PlayChar>
+    <ScenarioNum>2</ScenarioNum>
+    <CharNum>2002</CharNum>
+    <CharName>융톨</CharName>
+    <Text>그냥 쉬고있어요~ 왜요?</Text>
+  </Line>
+  <Line>
+    <PlayChar>1001</PlayChar>
+    <ScenarioNum>2</ScenarioNum>
+    <CharNum>2001</CharNum>
+    <CharName>헝탱</CharName>
+    <Text>쉘위 댄스?!</Text>
+  </Line>
+  <Line>
+    <PlayChar>1001</PlayChar>
+    <ScenarioNum>2</ScenarioNum>
+    <CharNum>2002</CharNum>
+    <CharName>융톨</CharName>
+    <Text>아녀 그러지 않겠어요!</Text>
+  </Line>
+  <Line>
+    <PlayChar>1001</PlayChar>
+    <ScenarioNum>2</ScenarioNum>
+    <CharNum>2001</CharNum>
+    <CharName>헝탱</CharName>
+    <Text>왜죠???</Text>
+  </Line>
+  <Line>
+    <PlayChar>1001</PlayChar>
+    <ScenarioNum>2</ScenarioNum>
+    <CharNum>2002</CharNum>
+    <CharName>융톨</CharName>
+    <Text>추기 싫어요!</Text>
+  </Line>
 </DialogSet>

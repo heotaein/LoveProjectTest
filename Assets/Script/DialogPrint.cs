@@ -6,16 +6,16 @@ using UnityEngine.UI;
 public class DialogPrint : MonoBehaviour
 {
     //DialogXMLData DXD = new DialogXMLData();
-    GameManager GM = new GameManager();
-    Text tempText;
+    Text printName, printText;
     DialogXMLData DXD;
 
     //-------------테스트용-------------------
     //public List<string> dialog = new List<string>();
+    public string[] charname;
     public string[] dialog;
     
     public bool init = true;
-    bool play = true;
+    public bool play = true;
     
     //-------------테스트용-------------------
     
@@ -23,8 +23,9 @@ public class DialogPrint : MonoBehaviour
 
     void Awake()
     {
-        tempText = this.GetComponent<Text>();
-        DXD = this.GetComponentInParent<DialogXMLData>();
+        printName = GameObject.Find("dialog_name").GetComponent<Text>();
+        printText = GameObject.Find("dialog_text").GetComponent<Text>();
+        DXD = this.GetComponent<DialogXMLData>();
     }
 
     void Update()
@@ -34,9 +35,8 @@ public class DialogPrint : MonoBehaviour
             Debug.Log(DXD.text.Count);
             //초기화를 제어 -> GM에서 제어할 예정
             init = false;
-            dialog = DXD.textArr;
-            
-
+            charname = DXD.charName.ToArray();
+            dialog = DXD.text.ToArray();
         }
         if(play)
         {
@@ -51,7 +51,8 @@ public class DialogPrint : MonoBehaviour
     {
         for (int i = 0; i < dialog.Length; i++)
         {
-            tempText.text = dialog[i];
+            printName.text = charname[i];
+            printText.text = dialog[i];
             yield return new WaitForSeconds(time);
         }
     }
