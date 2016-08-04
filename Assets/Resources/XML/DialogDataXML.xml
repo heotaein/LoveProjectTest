@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DialogSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Line>
+		<PlayChar>1001</PlayChar>
+		<ScenarioNum>1</ScenarioNum>
+		<CharNum>2001</CharNum>
+		<CharName>헝탱</CharName>
+		<Text>안녕하십니까?!</Text>
+	</Line>
+	<Line>
+		<PlayChar>1001</PlayChar>
+		<ScenarioNum>1</ScenarioNum>
+		<CharNum>2002</CharNum>
+		<CharName>융톨</CharName>
+		<Text>네 안녕하세요~</Text>
+	</Line>
+	<Line>
+		<PlayChar>1001</PlayChar>
+		<ScenarioNum>1</ScenarioNum>
+		<CharNum>2001</CharNum>
+		<CharName>헝탱</CharName>
+		<Text>뭘 도와드릴까요??</Text>
+	</Line>
+	<Line>
+		<PlayChar>1001</PlayChar>
+		<ScenarioNum>1</ScenarioNum>
+		<CharNum>2002</CharNum>
+		<CharName>융톨</CharName>
+		<Text>맛난것 좀 사려구요.</Text>
+	</Line>
+	<Line>
+		<PlayChar>1001</PlayChar>
+		<ScenarioNum>1</ScenarioNum>
+		<CharNum>2001</CharNum>
+		<CharName>헝탱</CharName>
+		<Text>취향이 어떻게 되세요?</Text>
+	</Line>
+</DialogSet>
