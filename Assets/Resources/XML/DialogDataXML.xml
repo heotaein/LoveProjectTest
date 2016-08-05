@@ -1,79 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <DialogSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Line>
+    <ScenarioNum>1</ScenarioNum>
 		<PlayChar>1001</PlayChar>
-		<ScenarioNum>1</ScenarioNum>
-		<CharNum>2001</CharNum>
+		<CharNum>char001</CharNum>
+    <BackgroundImgIndex>background001</BackgroundImgIndex>
 		<CharName>헝탱</CharName>
 		<Text>안녕하십니까?!</Text>
 	</Line>
 	<Line>
+    <ScenarioNum>1</ScenarioNum>
 		<PlayChar>1001</PlayChar>
-		<ScenarioNum>1</ScenarioNum>
-		<CharNum>2002</CharNum>
+		<CharNum>char002</CharNum>
+    <BackgroundImgIndex>background001</BackgroundImgIndex>
 		<CharName>융톨</CharName>
 		<Text>네 안녕하세요~</Text>
 	</Line>
 	<Line>
+    <ScenarioNum>1</ScenarioNum>
 		<PlayChar>1001</PlayChar>
-		<ScenarioNum>1</ScenarioNum>
-		<CharNum>2001</CharNum>
+		<CharNum>char001</CharNum>
+    <BackgroundImgIndex>background001</BackgroundImgIndex>
 		<CharName>헝탱</CharName>
 		<Text>뭘 도와드릴까요??</Text>
 	</Line>
 	<Line>
+    <ScenarioNum>1</ScenarioNum>
 		<PlayChar>1001</PlayChar>
-		<ScenarioNum>1</ScenarioNum>
-		<CharNum>2002</CharNum>
+		<CharNum>char002</CharNum>
+    <BackgroundImgIndex>background001</BackgroundImgIndex>
 		<CharName>융톨</CharName>
 		<Text>맛난것 좀 사려구요.</Text>
 	</Line>
 	<Line>
+    <ScenarioNum>1</ScenarioNum>
 		<PlayChar>1001</PlayChar>
-		<ScenarioNum>1</ScenarioNum>
-		<CharNum>2001</CharNum>
+		<CharNum>char001</CharNum>
+    <BackgroundImgIndex>background001</BackgroundImgIndex>
 		<CharName>헝탱</CharName>
 		<Text>취향이 어떻게 되세요?</Text>
 	</Line>
   <Line>
-    <PlayChar>1001</PlayChar>
     <ScenarioNum>2</ScenarioNum>
-    <CharNum>2001</CharNum>
+    <PlayChar>1001</PlayChar>
+    <CharNum>char001</CharNum>
+    <BackgroundImgIndex>background002</BackgroundImgIndex>
     <CharName>헝탱</CharName>
     <Text>오늘은 뭐하세요?</Text>
   </Line>
   <Line>
-    <PlayChar>1001</PlayChar>
     <ScenarioNum>2</ScenarioNum>
-    <CharNum>2002</CharNum>
+    <PlayChar>1001</PlayChar>
+    <CharNum>char002</CharNum>
+    <BackgroundImgIndex>background002</BackgroundImgIndex>
     <CharName>융톨</CharName>
     <Text>그냥 쉬고있어요~ 왜요?</Text>
   </Line>
   <Line>
-    <PlayChar>1001</PlayChar>
     <ScenarioNum>2</ScenarioNum>
-    <CharNum>2001</CharNum>
+    <PlayChar>1001</PlayChar>
+    <CharNum>char001</CharNum>
+    <BackgroundImgIndex>background002</BackgroundImgIndex>
     <CharName>헝탱</CharName>
     <Text>쉘위 댄스?!</Text>
   </Line>
   <Line>
-    <PlayChar>1001</PlayChar>
     <ScenarioNum>2</ScenarioNum>
-    <CharNum>2002</CharNum>
+    <PlayChar>1001</PlayChar>
+    <CharNum>char002</CharNum>
+    <BackgroundImgIndex>background002</BackgroundImgIndex>
     <CharName>융톨</CharName>
     <Text>아녀 그러지 않겠어요!</Text>
   </Line>
   <Line>
-    <PlayChar>1001</PlayChar>
     <ScenarioNum>2</ScenarioNum>
-    <CharNum>2001</CharNum>
+    <PlayChar>1001</PlayChar>
+    <CharNum>char001</CharNum>
+    <BackgroundImgIndex>background002</BackgroundImgIndex>
     <CharName>헝탱</CharName>
     <Text>왜죠???</Text>
   </Line>
   <Line>
-    <PlayChar>1001</PlayChar>
     <ScenarioNum>2</ScenarioNum>
-    <CharNum>2002</CharNum>
+    <PlayChar>1001</PlayChar>
+    <CharNum>char002</CharNum>
+    <BackgroundImgIndex>background002</BackgroundImgIndex>
     <CharName>융톨</CharName>
     <Text>추기 싫어요!</Text>
   </Line>

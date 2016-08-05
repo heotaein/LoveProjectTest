@@ -48,6 +48,7 @@
      <Compile Include="Assets\Script\DialogClass\DialogManager.cs" />
      <Compile Include="Assets\Script\DialogClass\DialogPrint.cs" />
      <Compile Include="Assets\Script\DialogClass\DialogXMLData.cs" />
+     <Compile Include="Assets\Script\EditerClass\sinarioMaker.cs" />
      <Compile Include="Assets\Script\GameManager.cs" />
      <None Include="Assets\Resources\XML\DialogDataXML.xml" />
      <None Include="Assets\Resources\XML\WordDataXML.xml" />

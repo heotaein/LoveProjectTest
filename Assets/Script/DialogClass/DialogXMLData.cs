@@ -11,6 +11,8 @@ public class DialogXMLData : MonoBehaviour
 
     public string _FileName = "DialogDataXML";
     //public TextAsset _ExpXmlFile;
+    public List<string> backgroundImgIndex = new List<string>();
+    public List<string> charNumber = new List<string>();
     public List<string> charName = new List<string>();
     public List<string> text = new List<string>();
 
@@ -54,6 +56,8 @@ public class DialogXMLData : MonoBehaviour
         {
             if (node.SelectSingleNode("ScenarioNum").InnerText == dialogScenarioNum)
             {
+                backgroundImgIndex.Add(node.SelectSingleNode("BackgroundImgIndex").InnerText);
+                charNumber.Add(node.SelectSingleNode("CharNum").InnerText);
                 charName.Add(node.SelectSingleNode("CharName").InnerText);
                 text.Add(node.SelectSingleNode("Text").InnerText);
             }
