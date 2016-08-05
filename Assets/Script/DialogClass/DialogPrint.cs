@@ -38,7 +38,6 @@ public class DialogPrint : MonoBehaviour
     {
         if (init)
         {
-            Debug.Log(DXD.text.Count);
             //초기화를 제어 -> GM에서 제어할 예정
             init = false;
             dialogstr_background = DXD.backgroundImgIndex.ToArray();

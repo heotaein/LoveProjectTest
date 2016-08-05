@@ -19,7 +19,7 @@ public class DialogXMLData : MonoBehaviour
     //시나리오 넘버를 받아올 변수 생성
     string dialogScenarioNum;
 
-    public bool awakechk = true;
+    public bool CreatSet = true;
 
     void Awake()
     {
@@ -29,12 +29,12 @@ public class DialogXMLData : MonoBehaviour
 
     void Update()
     {
-        if (awakechk)
+        if (CreatSet)
         {
-            awakechk = false;
+            CreatSet = false;
             dialogScenarioNum = GM.ScenarioNum.ToString();
             Xml_Load(_FileName);
-            Debug.Log(dialogScenarioNum);
+            StopAllCoroutines();
         }
     }
 
