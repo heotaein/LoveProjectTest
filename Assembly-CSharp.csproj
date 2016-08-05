@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\DialogClass\DialogManager.cs" />
      <Compile Include="Assets\Script\DialogClass\DialogPrint.cs" />
      <Compile Include="Assets\Script\DialogClass\DialogXMLData.cs" />
      <Compile Include="Assets\Script\GameManager.cs" />
