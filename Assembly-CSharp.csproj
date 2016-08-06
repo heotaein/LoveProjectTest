@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{C500B84A-7E72-FC2E-E9A3-2B08E38C6BAE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -46,20 +45,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\DialogClass\DialogPrint.cs" />
-    <Compile Include="Assets\Script\DialogClass\DialogXMLData.cs" />
-    <Compile Include="Assets\Script\EditerClass\sinarioMaker.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
-    <None Include="Assets\Resources\XML\DialogDataXML.xml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Assets\Resources\XML\WordDataXML.xml" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\Script\DialogClass\DialogPrint.cs" />
+     <Compile Include="Assets\Script\DialogClass\DialogXMLData.cs" />
+     <Compile Include="Assets\Script\EditerClass\sinarioMaker.cs" />
+     <Compile Include="Assets\Script\GameManager.cs" />
+     <None Include="Assets\Resources\XML\DialogDataXML.xml" />
+     <None Include="Assets\Resources\XML\WordDataXML.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -69,4 +66,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>
